@@ -1,0 +1,18 @@
+html
+	head
+		title Register
+	body
+		h1 Register
+		form(name="register",action="/register",method="post")
+			| firstName
+			input(type="text",name="firstName",id="firstName")
+			br
+			| lastName
+			input(type="text",name="lastName",id="lastName")
+			| Email
+			input(type="text",name="email",id="email")
+			br
+			| Password
+			input(type="text",name="password",id="password")
+			br
+			input(type="submit",value='Register')
